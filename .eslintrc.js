@@ -22,6 +22,7 @@ module.exports = {
     },
     ecmaVersion: 'latest',
     sourceType: 'module',
+    requireConfigFile: false,
   },
   plugins: ['react', 'prettier', 'react-hooks'],
   settings: {
